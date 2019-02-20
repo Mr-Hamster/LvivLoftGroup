@@ -1,0 +1,16 @@
+@import url(//db.onlinewebfonts.com/c/d7abfa52675c67654ecc2a8213bc58ae?family=Segoe+Print);
+
+@font-face {font-family: "Segoe Print";
+  src: url("//db.onlinewebfonts.com/t/d7abfa52675c67654ecc2a8213bc58ae.eot");
+  src: url("//db.onlinewebfonts.com/t/d7abfa52675c67654ecc2a8213bc58ae.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/d7abfa52675c67654ecc2a8213bc58ae.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/d7abfa52675c67654ecc2a8213bc58ae.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/d7abfa52675c67654ecc2a8213bc58ae.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/d7abfa52675c67654ecc2a8213bc58ae.svg#Segoe Print") format("svg");
+}
+
+.App { 
+    text-align:center;
+    font-family: "Segoe Print"!important;
+}
+

@@ -1,0 +1,197 @@
+@import url(//db.onlinewebfonts.com/c/fde909219e3452f93cd37d33ba1afdd9?family=Rockwell+Std);
+
+@font-face {font-family: "Rockwell Std";
+    src: url("//db.onlinewebfonts.com/t/fde909219e3452f93cd37d33ba1afdd9.eot");
+    src: url("//db.onlinewebfonts.com/t/fde909219e3452f93cd37d33ba1afdd9.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/fde909219e3452f93cd37d33ba1afdd9.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/fde909219e3452f93cd37d33ba1afdd9.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/fde909219e3452f93cd37d33ba1afdd9.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/fde909219e3452f93cd37d33ba1afdd9.svg#Rockwell Std") format("svg");
+}
+
+.wrapper_b{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://res.cloudinary.com/loftstar777/image/upload/v1550491817/loftlviv/buhiv/bg_img/fon_b.jpg");
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fon_b{
+    display: flex;
+    width: 95%;
+    height: 90%;
+    background-image: url("https://res.cloudinary.com/loftstar777/image/upload/v1550491817/loftlviv/buhiv/bg_img/fon_b_3.jpg");
+    background-position: center;
+    opacity: 0.95;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info_b{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+    opacity: 1!important;
+}
+
+.logo_b_1{
+    display: flex;
+    width: 667px;
+    height: 163px;
+    opacity: 1!important;
+    filter: drop-shadow(0 0 10px black);
+}
+
+.text-buhiv{
+    display: flex;
+    opacity: 1!important;
+    font-family: 'Rockwell Std';
+    color: #5a4593; 
+    font-weight: bolder;
+    flex-direction: column;
+    font-size: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 40px black,0 0 40px black;
+}
+
+
+.text-buhiv1{
+    display: flex;
+    width: 100%;
+    opacity: 1!important;
+    color: #c782d1;
+    font-family: 'Marck Script';
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 40px black,0 0 40px black;
+}
+@media (max-device-width: 785px){
+    .wrapper_b {
+        height: 480px;
+    }
+    .text-buhiv {
+        font-size: 85px;
+    }
+    .text-buhiv1 {
+        font-size: 35px;
+    }
+
+}
+
+@media (max-device-width: 720px){
+    .wrapper_b {
+        height: 460px;
+    }
+    .logo_b_1{
+        width: 620px;
+        height: 141px;
+    }
+}
+
+@media (max-device-width: 655px){
+    .text-buhiv {
+        font-size: 70px;
+    }
+    .text-buhiv1 {
+        font-size: 35px;
+    }
+    .logo_b_1{
+        width: 550px;
+        height: 125px;
+    }
+}
+
+@media (max-device-width: 620px){
+    .info_b{
+        align-items: flex-start;
+    }
+}
+
+@media (max-device-width: 574px){
+    .logo_b{
+        justify-content: flex-end;
+    }
+    .logo_b_1{
+        width: 500px;
+        height: 113px;
+    }
+    .text-buhiv {
+        font-size: 75px;
+        line-height: 60px;
+    }
+    .text-buhiv1 {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-device-width: 525px){
+    .logo_b_1{
+        width: 425px;
+        height: 96px;
+    }
+}
+
+@media (max-device-width: 450px){
+    .info_b{
+        height: 70px;
+        align-items: center;
+    }
+    .logo_b_1{
+        width: 380px;
+        height: 89px;
+        margin-bottom: 15px;
+    }
+    .text-buhiv1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-device-width: 400px){
+    .logo_b_1{
+        width: 330px;
+        height: 78px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-device-width: 380px){
+    .wrapper_b{
+        height: 400px;
+    }
+    .info_b{
+        height: 100px;
+    }
+    .logo_b {
+        justify-content: center;
+    }
+}
+
+@media (max-device-width: 345px){
+    .logo_b_1{
+        width: 300px;
+        height: 72px;
+    }
+    .text-buhiv {
+        font-size: 65px;
+        line-height: 55px;
+    }
+}

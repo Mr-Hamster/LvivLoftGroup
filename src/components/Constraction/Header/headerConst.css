@@ -1,0 +1,182 @@
+.wrapper-header{
+    display: flex;
+    width: 100%;
+    height: 525px;
+    background-image: url("https://res.cloudinary.com/loftstar777/image/upload/v1550492139/loftlviv/construction/bg_img/constraction.jpg");
+    background-position-y: 5%;
+    background-position-x: center;
+    flex-direction: column;
+}
+
+.wrapper-header_a{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://res.cloudinary.com/loftstar777/image/upload/v1550491701/loftlviv/apart/bg_img/apart-bg.jpg");
+    background-position-y: 5%;
+    background-position-x: center;
+    flex-direction: column;
+}
+
+
+.info_c{
+    display: flex;
+    width: 100%;
+    height: 125px;
+}
+
+.header-logo_c{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: flex-end;
+    align-self: flex-end;
+    flex-direction: column;
+}
+
+.logo_text_c{
+    display: flex;
+    font-size: 225px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 40px white, 0 0 40px white;
+}
+
+.logo_text_c1{
+    display: flex;
+    font-size: 125px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 40px white, 0 0 40px white;
+}
+
+.logo_c{
+    display: flex;
+    width: 219px;
+    height: 225px;
+}
+.logo_a{
+    display: flex;
+    width: 184px;
+    height: 225px;
+}
+   
+@media (max-device-width: 820px) {
+    .logo_text_c {
+        font-size: 200px;
+    }
+    .logo_text_c1{
+        font-size: 105px;
+    }
+    .wrapper-header{
+        height: 475px;
+    }
+    .wrapper-header_a{
+        height: 455px;
+    }
+    .logo_a{
+        width: 164px;
+        height: 200px;
+    }
+}
+
+@media (max-device-width: 697px) {
+    .logo_text_c {
+        font-size: 180px;
+    }
+    .logo_text_c1{
+        font-size: 88px;
+    }
+    .wrapper-header{
+        height: 440px;
+    }
+    .wrapper-header_a{
+        height: 420px;
+    }
+    .logo_c{
+        width: 175px;
+        height: 180px;
+    }
+    .logo_a{
+        width: 147px;
+        height: 180px;
+    }
+}
+
+@media (max-device-width: 578px) {
+    .logo_text_c {
+        font-size: 150px;
+    }
+    .logo_text_c1{
+        font-size: 70px;
+    }
+    .wrapper-header{
+        height: 410px;
+    }
+    .wrapper-header_a{
+        height: 390px;
+    }
+    .header-logo_c{
+        height: 280px;
+    }
+    .logo_c{
+        width: 146px;
+        height: 150px;
+    }
+    .logo_a{
+        width: 123px;
+        height: 150px;
+    }    
+}
+@media (max-device-width: 481px) {
+    .logo_text_c {
+        font-size: 125px;
+    }
+    .logo_text_c1{
+        font-size: 58px;
+    }
+    .wrapper-header{
+        height: 350px;
+    }
+    .wrapper-header_a{
+        height: 330px;
+    }
+    .header-logo_c{
+        height: 250px;
+    }
+    .logo_c{
+        width: 121px;
+        height: 125px;
+    } 
+    .logo_a{
+        width: 102px;
+        height: 125px;
+    }
+}
+@media (max-device-width: 395px) {
+    .logo_text_c {
+        font-size: 95px;
+    }
+    .logo_text_c1{
+        font-size: 47px;
+    }
+    .wrapper-header{
+        height: 330px;
+    }
+    .wrapper-header_a{
+        height: 310px;
+    }
+    .header-logo_c{
+        height: 220px;
+    }
+    .logo_c{
+        width: 110px;
+        height: 115px;
+    }
+    .logo_a{
+        width: 77px;
+        height: 95px;
+    }
+}

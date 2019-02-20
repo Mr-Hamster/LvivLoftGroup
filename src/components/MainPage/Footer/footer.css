@@ -1,0 +1,73 @@
+.footerSize{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: #c50000;  
+    border-top: solid 3px;
+    border-top-color: black; 
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-block{
+    display: flex;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer{
+    display: flex;
+    justify-content: center;
+    width: 107px;
+    height: 130px;
+    filter: drop-shadow(0 0 40px black);
+}
+.title-footer{
+    display: flex;
+    width: 213px;
+    font-weight: bolder;
+    font-size: 36px;
+}
+.icons_main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+    height: 100%;
+}
+.icons-size-footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contacts{
+    display: flex;
+    width: 34%;
+    height: 100%;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.contacts>div>a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.Shadow_m>a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.rights-main{
+    display: flex;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+

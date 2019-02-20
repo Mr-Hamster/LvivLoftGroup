@@ -1,0 +1,137 @@
+.PrisonHeader-info-size{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 3px;
+    border-top: solid 3px;
+    border-color: #afafaf;
+}
+
+.PrisonHeader-info-size{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 3px;
+    border-top: solid 3px;
+    border-color: #afafaf;
+}
+
+
+.PrisonHeader-info-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 75%;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+}
+
+.PrisonShadow{
+    display: flex;
+    margin-right: 10px;
+}
+
+.PrisonShadow >a{
+    text-decoration: none;
+    color: white;
+}
+
+.PrisonShadow :hover{
+    text-decoration: underline;
+    color:white;
+    filter: drop-shadow(0 0 25px white);
+}
+
+.PrisonHeader-icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+}
+
+.PrisonStyle-icons{
+    width: 40px; 
+    height: 40px; 
+    filter: drop-shadow(0 0 40px white);
+}
+.PrisonStyle-icons:hover {
+    -webkit-transform: rotateZ(20deg);
+    -ms-transform: rotateZ(20deg);
+    transform: rotateZ(20deg);
+  }
+
+
+  /*Laptop 1024 width*/
+  @media screen and (min-width: 1023px) and (max-width: 1310px)  {
+    .PrisonHeader-info-wrapper{
+        width: 75%;
+    }
+
+    .PrisonHeader-icons{
+        width: 25%;
+    }
+
+    .PrisonHeader-info-wrapper > div{
+        font-size: 16.1px;
+    }
+    
+  }
+/*Tablet*/
+  @media screen and (min-width: 768px) and (max-width: 1022px) {
+    .PrisonHeader-info-size{
+        flex-direction: column;
+        height: 80px;
+    }
+    .PrisonHeader-info-wrapper{
+        height: 50%;
+        width: 100%;
+    }
+    .PrisonHeader-icons{
+        width: 70%;
+        height: 50%;
+        
+    }
+    .PrisonHeader-info-wrapper > div{
+        font-size: 16.1px;
+    }
+    
+  }
+  @media (max-device-width: 767px) {
+    .PrisonHeader-info-size{
+        flex-direction: column;
+        height: 83px;
+    }
+    .PrisonHeader-info-wrapper{
+        height: 60%;
+        width: 100%;
+    }
+    .PrisonHeader-icons{
+        width: 90%;
+        height: 40%;   
+    }
+    .PrisonHeader-info-wrapper > div{
+        font-size: 16.1px;
+    }
+  }
+  @media (max-device-width: 425px) {
+    .PrisonHeader-info-wrapper{
+        display: none;
+    }
+    .PrisonHeader-info-size{
+        height: 55px;
+    }
+    .PrisonHeader-icons{
+        width: 100%;
+        height: 100%;   
+        justify-content: space-around;
+    }
+}

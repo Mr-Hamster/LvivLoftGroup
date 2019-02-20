@@ -1,0 +1,106 @@
+@font-face{
+    font-family:"Octin Prison W05 Regular";
+    src:url("Fonts/5325154/6ac17260-72db-463a-9736-d0ad45368709.eot?#iefix");
+    src:url("Fonts/5325154/6ac17260-72db-463a-9736-d0ad45368709.eot?#iefix") format("eot"),url("Fonts/5325154/94c3aa67-b78c-4003-b759-58d3c74db884.woff2") format("woff2"),url("Fonts/5325154/98c8362b-4b31-4985-9cef-19df6780d09f.woff") format("woff"),url("Fonts/5325154/666ad520-858f-449f-a0ed-f75643c2af27.ttf") format("truetype");
+}
+
+.logo-wraper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 465px;
+    align-items: flex-end;
+    background-image: url("https://res.cloudinary.com/loftstar777/image/upload/v1550492224/loftlviv/prison/bg_img/prison-bg2.jpg");
+    background-position: center
+}
+
+.text-prison-header{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.text_logo_p{
+    display: flex;
+    height: 250px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 250px;
+    font-family:"Octin Prison W05 Regular";
+    color: black;
+    text-shadow: 0 0 40px white;
+}
+
+.text_logo_p1{
+    display: flex;
+    height: 125px;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 125px;
+    font-family:"Octin Prison W05 Regular";
+    color: black;
+    text-shadow: 0 0 40px white;
+}
+
+.logo_prison{
+    display: flex;
+    width: 164px;
+    height: 200px;
+    filter: drop-shadow(0 0 40px white);
+}
+
+@media (max-device-width: 584px) {
+    .text_logo_p{
+        font-size: 200px; 
+    }
+    .text_logo_p1{
+        font-size: 120px; 
+    }
+    .logo_prison{
+        width: 147px;
+        height: 180px;
+    }
+}
+
+@media (max-device-width: 490px) {
+    .text_logo_p{
+        font-size: 160px; 
+        height: 170px;
+    }
+    .text_logo_p1{
+        font-size: 100px; 
+        height: 130px;
+    }
+    .logo_prison{
+        width: 118px;
+        height: 145px;
+    }
+    .logo-wraper{
+        height: 400px;
+    }
+}
+
+@media (max-device-width: 390px){
+    .text_logo_p{
+        font-size: 130px; 
+        height: 150px;
+    }
+    .text_logo_p1{
+        font-size: 90px; 
+        height: 120px;
+    }
+    .logo-wraper{
+        height: 300px;
+        background-position:left;
+        align-items: center;
+    }
+    .logo_prison{
+        width: 86px;
+        height: 105px;
+    }
+
+}

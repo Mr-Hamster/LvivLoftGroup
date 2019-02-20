@@ -1,0 +1,27 @@
+.button{
+    display: flex;
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+    width: 180px;
+    height: 57px;
+    border: 0;
+    border-radius: 3px 3px;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-weight: bolder;
+}  
+
+.button:hover{
+    box-shadow: 0px 15px 25px -5px rgba(darken(white, 40%));
+    transform: scale(1.1);
+}
+
+.button:active{
+    box-shadow: 0px 4px 8px rgba(darken(white, 30%));
+    transform: scale(.95);
+}
+
+
+

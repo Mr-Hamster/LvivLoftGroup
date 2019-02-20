@@ -1,0 +1,41 @@
+{
+  "name": "hostel",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "cheeseburger-menu": "0.0.13",
+    "react": "^16.7.0",
+    "react-bootstrap": "^0.32.4",
+    "react-bootstrap-sidebar": "0.0.1",
+    "react-dom": "^16.6.3",
+    "react-getscreen": "^1.1.3",
+    "react-grid-gallery": "^0.5.3",
+    "react-hamburger-menu": "^1.1.1",
+    "react-ionicons": "^3.0.1",
+    "react-responsive-carousel": "^3.1.45",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.5",
+    "react-scroll-up-button": "^1.6.4",
+    "react-scrollable-anchor": "^0.6.1",
+    "react-smart-slider": "0.0.9",
+    "react-youtube": "^7.9.0",
+    "reactstrap": "^7.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

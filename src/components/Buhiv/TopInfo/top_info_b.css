@@ -1,0 +1,130 @@
+.wrapper_info_b{
+    display: flex;
+    width: 100%;
+    height: 65px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    flex-direction: row;
+}
+
+.shadow_b{
+    display: flex;
+    width: 33.3%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    order:1;
+}
+.shadow_b1{
+    display: flex;
+    width: 33.3%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    order:3;
+}
+
+.icon_b{
+    display: flex;
+    width: 33.3%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    order: 2;
+}
+
+.shadow_b>a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.shadow_b>a{
+    text-decoration: none;
+    color: #5a4593;
+    text-shadow: 0 0 40px white, 0 0 40px white;
+    font-weight: bolder;
+}
+
+.shadow_b1>a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.shadow_b1>a{
+    text-decoration: none;
+    color: #5a4593;
+    text-shadow: 0 0 40px white, 0 0 40px white;
+    font-weight: bolder;
+}
+
+.icons_b{
+    width: 40px;
+    height: 40px;   
+}
+
+.icons_b:hover{
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+@media (max-device-width: 822px){
+    .wrapper_info_b{
+        font-size: 18px;
+    }
+    .shadow_b{
+        width: 22%;
+    }
+    .icon_b{
+        width: 44%;
+    }
+}
+
+@media (max-device-width: 620px){
+    .wrapper_info_b{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .shadow_b{
+        width: 45%;
+        order:1;
+    }
+    .shadow_b1{
+        width: 55%;
+        order:2;
+    }
+    .icon_b{
+        order: 3;
+        width: 80%;
+        align-items: flex-start;
+    }
+}
+
+@media (max-device-width: 448px){
+    .shadow_b{
+        width: 30%;
+        margin-right: 10px
+    }
+    .shadow_b1{
+        width: 65%;
+    }
+    .icon_b{
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media (max-device-width: 380px){
+    .shadow_b{
+        display: none;
+    }
+    .shadow_b1{
+        display: none;
+    }
+    .icon_b{
+        height: 80px;
+    }
+}

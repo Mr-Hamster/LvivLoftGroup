@@ -1,0 +1,106 @@
+.wrapper_body_b{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.h1_block_b1{
+    font-weight: bolder;
+    font-size: 35px;
+    border-bottom: solid 3px #c782d1;
+}
+
+.text_b{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://res.cloudinary.com/loftstar777/image/upload/v1550491817/loftlviv/buhiv/bg_img/fon_b.jpg");
+    background-size: 100%;
+}
+
+.text_b>p{
+    display: flex;
+    width: 90%;
+    height:100%;
+    font-size: 22px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 0 0 40px black, 0 0 40px black;
+}
+
+.player{
+    display: flex;
+    box-shadow: 0 0 40px black;
+    width: 900px;
+    height: 506px;                                         
+}
+
+@media (max-device-width: 950px){
+    .player{
+        width: 745px;
+        height: 423px;                                         
+    }
+}
+
+@media (max-device-width: 790px){
+    .player{
+        width: 565px;
+        height: 323px;                                         
+    }
+}
+
+@media (max-device-width: 592px){
+    .player{
+        width: 435px;
+        height: 248px;                                         
+    }
+}
+@media (max-device-width: 464px){
+    .player{
+        width: 355px;
+        height: 200px;                                         
+    }
+}
+@media (max-device-width: 383px){
+    .player{
+        width: 280px;
+        height: 162px;                                         
+    }
+}
+
+@media (max-device-width: 768px){
+    .text_b>p{
+        font-size: 18px;
+    }
+}
+
+@media (max-device-width: 500px){
+    .text_b>p{
+        font-size: 16px;
+    }
+}
+
+@media (max-device-width: 370px){
+    .text_b>p{
+        font-size: 14px;
+
+    }
+}
+
+@media (max-device-width: 768px){
+    .text_b>p{
+        font-size: 20px;
+    }
+}
+@media (max-device-width: 425px){
+    .text_b>p{
+        font-size: 18px;
+    }
+}

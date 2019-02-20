@@ -1,0 +1,131 @@
+.wrapper_l{
+    display: flex;
+    width: 100%;
+    height: 430px;
+    background-image: url("https://res.cloudinary.com/loftstar777/image/upload/v1550492368/loftlviv/loft/bg_img/loft-bg.jpg");
+    background-position: center;
+    flex-direction: column; 
+}
+
+.infoLoft{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text-ico{
+    display: flex;
+    width: 100%;
+    height: 330px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #c50000;
+    text-shadow: 0 0 40px black, 0 0 40px black;
+}
+
+.text_loft{
+    display: flex;
+    height: 100%;
+    width: 45%;
+    font-size: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_loft1{
+    display: flex;
+    height: 100%;
+    width: 55%;
+    font-size: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo_l{
+    display: flex;
+    width: 144px;
+    height: 180px;
+    filter: drop-shadow(0 0 40px black);
+}
+
+@media (max-device-width: 1140px){
+    .text_loft{
+        font-size: 180px;
+    }
+    .text_loft1{
+        font-size: 180px;
+    }
+}
+
+
+@media (max-device-width: 1023px) {
+    .wrapper_l{
+        height: 470px;
+    }
+    .header-text-ico{
+        height: 350px;
+        flex-direction: column;
+    }
+    .text_loft1{
+        font-size: 140px;
+    }
+    .logo_l{
+        width: 137px;
+        height: 170px;
+    }
+}
+
+@media (max-device-width: 767px) {
+    .wrapper_l{
+        height: 470px;
+    }
+    .header-text-ico{
+        height: 350px;
+        flex-direction: column;
+    }
+   
+   
+}
+
+@media (max-device-width: 531px) {
+    .text_loft{
+        font-size: 130px;
+    }
+    .text_loft1{
+        font-size: 100px;
+    }
+    .logo_l{
+        width: 104px;
+        height: 130px;
+    }
+    .infoLoft{
+        height: 150px;
+    }
+}
+
+@media (max-device-width: 426px) {
+    .text_loft, .text_loft1{
+        font-size: 120px;
+    }
+    .wrapper_l{
+        height: 440px;
+    }
+    .logo_l{
+        width: 90px;
+        height: 112px;
+    }
+}
+
+@media (max-device-width: 383px) {
+    .wrapper_l{
+        height: 380px;
+    }
+
+    .text_loft1{
+        font-size: 90px;
+    }
+}

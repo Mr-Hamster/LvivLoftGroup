@@ -1,0 +1,91 @@
+.loft-menu-wrapper{
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+    height: 65px;
+    display: flex;
+    align-items: center; 
+    border-bottom: solid 3px;
+    border-top: solid 3px;
+    border-color: #afafaf;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.loft-menu-item{
+    font-size: 22px;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.loft-menu-item >a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.loft-menu-item:hover>a{
+    text-decoration: underline;
+    color: white;
+
+}
+
+.loft-menu-item:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.loft-downblock{
+    z-index: 2;
+    position: absolute; 
+    top: 54px; 
+    left: -35px;
+    background-color: #000000; 
+    border-style: solid;
+    border-width: 0px 3px 3px 3px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.loft-downblock-text{
+    display: flex;
+    width: 170px;
+    height: 70px;  
+    border-bottom: solid 3px;
+    text-decoration: none;
+    color: white;
+}
+.loft-downblock-text>a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.loft-downblock-text:last-of-type{
+    border-bottom: 0;
+}
+
+.loft-downblock-text:hover>a{
+    text-decoration: underline;
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+}
+
+@media (max-device-width: 856px) and (min-device-width: 768px) {
+    .loft-menu-item{
+        font-size: 22px;
+    }
+    .loft-downblock{
+        top: 54px;
+    }
+}
